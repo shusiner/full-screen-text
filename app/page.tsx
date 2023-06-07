@@ -13,7 +13,7 @@ export default function IndexPage() {
         onChange={(e) => setText(e.target.value)}
       />
       <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <h1 className="scroll-m-20 break-all text-7xl font-extrabold tracking-tight">
+        <h1 className="scroll-m-20 break-words text-7xl font-extrabold tracking-tight">
           {text}
         </h1>
       </div>
